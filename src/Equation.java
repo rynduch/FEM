@@ -39,6 +39,10 @@ public class Equation {
       double t_min = temp[i][0];
       System.out.printf("t%d = {", i + 1);
       System.out.println();
+      for (int j = 0; j < t.length; j++) {
+        System.out.print(temp[i][j]);
+        System.out.println();
+      }
 
       for (int j = 1; j < t.length; j++) {
         if (temp[i][j] > t_max)
@@ -46,9 +50,9 @@ public class Equation {
         else if (temp[i][j] < t_min)
           t_min = temp[i][j];
       }
-      System.out.print("\tmin: " + t_min);
-      System.out.print("\tmax: " + t_max);
-      System.out.println();
+//      System.out.print("\tmin: " + t_min);
+//      System.out.print("\tmax: " + t_max);
+//      System.out.println();
       System.out.println("}");
     }
   }
