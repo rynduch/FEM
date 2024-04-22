@@ -39,4 +39,7 @@ java -cp out Main
   ```
 
 Make sure you are in the directory `FEM` before executing the commands.
-   
+
+## Other
+An example of using data from the program to simulate the unsteady heat transport process with the convection boundary condition in ParaView.
+![img.png](img.png)
